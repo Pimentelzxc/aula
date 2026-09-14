@@ -34,7 +34,7 @@
 
          <p> <strong>Nome:</strong> <?= $nome ?> </p>
 
-         <p>Idade: <?= $idade ?> anos</p>
+         <p> <strong>Idade:</strong> <?= $idade ?> anos</p>
          </div>";
 
 </body>
