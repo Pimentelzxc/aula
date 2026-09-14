@@ -20,9 +20,9 @@
 
         echo "<h1>Informações do Aluno</h1>";
 
-        echo "<p><strong>Nome:</strong> <?= $nome?> </p>";
+        echo "<p><>Nome:= <?$nome?> </p>";
 
-        echo "<p><strong>Idade:</strong> <?= $idade?> anos</p>";
+        echo "<p><strong>Idade:= <? $idade?> anos</p>";
 
         if ($idade >= 18) {
 
