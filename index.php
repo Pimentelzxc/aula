@@ -28,15 +28,14 @@
 
 
     ?>
-        echo "<div class='container'>";
+         "<div class='container'>";
 
-        echo "<h1>Informações do Aluno</h1>";
+         "<h1>Informações do Aluno</h1>";
 
-        echo "<p><>Nome:  <?= $nome ?> </p>";
+         "<p><>Nome:  <?= $nome ?> </p>";
 
-        echo "<p>Idade: <?= $idade ?> anos</p>";
-
-         echo "</div>";
+         "<p>Idade: <?= $idade ?> anos</p>";
+         "</div>";
 
 </body>
 
