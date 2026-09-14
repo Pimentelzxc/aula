@@ -15,6 +15,20 @@
 
         $nome = "Pimentel";
         $idade = 20;
+        $resultado ="";
+        if ($idade >=18)
+            {
+                $resultado = "maior de idade";
+
+        
+            }
+            else {
+              
+            $resultado =" menor de idade";
+            }
+
+
+        
 
     
 
@@ -28,10 +42,8 @@
 
          <p> <strong>Idade:</strong> <?= $idade ?> anos</p>
 
-         <script> if (<?= $idade ?> >= 18) { document.write("<p class='maior'> Você é maior de idade.</p>");   
-         } 
-         else { document.write("<p class='menor'>Você é menor de idade.</p>"); } </script>
-         
+    
+
          </div>";
 
          
