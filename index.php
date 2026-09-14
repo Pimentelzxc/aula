@@ -26,11 +26,11 @@
 
         if ($idade >= 18) {
 
-            echo "<p class='maior'>Você é maior de idade.</p>";
+         "<p class='maior'> Você é maior de idade.</p>";
 
         } else {
 
-            echo "<p class='menor'>Você é menor de idade.</p>";
+            "<p class='menor'>Você é menor de idade.</p>";
 
         }
 
