@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 
     padding: 40px;
 
@@ -23,11 +23,11 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #e7dbdb;
 }
 
 p {
-    color: #666;
+    color: #960505;
     font-size: 18px;
 }
 
@@ -39,8 +39,8 @@ button {
     border: none;
     border-radius: 5px;
 
-    background-color: #333;
-    color: white;
+    background-color: #20beaf;
+    color: rgb(0, 0, 0);
 
     font-size: 16px;
 
