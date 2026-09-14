@@ -42,9 +42,11 @@
 
          <p> <strong>Idade:</strong> <?= $idade ?> anos</p>
 
+         <p> <strong> voce é</strong> <?= $resultado ?></p>
+
     
 
-         </div>";
+         </div>
 
          
 
