@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        echo "Olá, seja bem-vindo!";
+        echo "<h1>Olá, seja bem-vindo!</h1>";
 ?>
  
 
