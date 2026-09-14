@@ -16,7 +16,7 @@ body {
 .container {
     width: 350px;
 
-    background-color: white;
+    background-color: rgb(212, 14, 14);
 
     padding: 35px;
 
@@ -30,13 +30,13 @@ body {
 h1 {
     margin-bottom: 25px;
 
-    color: #222;
+    color: #f0e9e9;
 }
 
 p {
     font-size: 18px;
 
-    color: #555;
+    color: #f7f4f4;
 
     margin: 15px 0;
 }
@@ -46,9 +46,9 @@ p {
 
     padding: 12px;
 
-    background-color: #d4edda;
+    background-color: #000000;
 
-    color: #155724;
+    color: #e9f6ec;
 
     border-radius: 6px;
 
@@ -60,9 +60,9 @@ p {
 
     padding: 12px;
 
-    background-color: #f8d7da;
+    background-color: #030202;
 
-    color: #721c24;
+    color: #d4cacb;
 
     border-radius: 6px;
 
