@@ -28,16 +28,10 @@
 
          <p> <strong>Idade:</strong> <?= $idade ?> anos</p>
 
-          if ($idade >= 18) {
-
-         "<p class='maior'> Você é maior de idade.</p>";
-
-        } else {
-
-            "<p class='menor'>Você é menor de idade.</p>";
-
-        }
+         
          </div>";
+
+         script src="index.js"></script>
 
 </body>
 
