@@ -16,15 +16,7 @@
         $nome = "Pimentel";
         $idade = 20;
 
-        if ($idade >= 18) {
-
-         echo "<p class='maior'> Você é maior de idade.</p>";
-
-        } else {
-
-            echo "<p class='menor'>Você é menor de idade.</p>";
-
-        }
+    
 
 
     ?>
@@ -35,6 +27,16 @@
          <p> <strong>Nome:</strong> <?= $nome ?> </p>
 
          <p> <strong>Idade:</strong> <?= $idade ?> anos</p>
+
+          if ($idade >= 18) {
+
+         "<p class='maior'> Você é maior de idade.</p>";
+
+        } else {
+
+            "<p class='menor'>Você é menor de idade.</p>";
+
+        }
          </div>";
 
 </body>
