@@ -31,7 +31,9 @@
          
          </div>";
 
-         script src="index.js"></script>
+         <script> if (<?= $idade ?> >= 18) { document.write("<p class='maior'> Você é maior de idade.</p>");   
+         } 
+         else { document.write("<p class='menor'>Você é menor de idade.</p>"); } </script>
 
 </body>
 
