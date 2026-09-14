@@ -30,13 +30,13 @@ body {
 h1 {
     margin-bottom: 25px;
 
-    color: #f0e9e9;
+    color: #000000;
 }
 
 p {
     font-size: 18px;
 
-    color: #f7f4f4;
+    color: #000000;
 
     margin: 15px 0;
 }
@@ -48,7 +48,7 @@ p {
 
     background-color: #000000;
 
-    color: #e9f6ec;
+    color: #000000;
 
     border-radius: 6px;
 
@@ -62,7 +62,7 @@ p {
 
     background-color: #030202;
 
-    color: #d4cacb;
+    color: #000000;
 
     border-radius: 6px;
 
