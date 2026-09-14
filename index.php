@@ -26,7 +26,7 @@
 
     echo "<p>Esta é a Aula do Professor Lucas Luz</p>";
 
-    echo "<p>Hoje estamos aprendendo os primeiros conceitos de PHP.</p>";
+    echo "<p>Hoje estamos aprendendo Html no PHP</p>";
 
     echo "<button id='botao'>Começar aula</button>";
 
