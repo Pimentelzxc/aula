@@ -28,14 +28,14 @@
 
 
     ?>
-         "<div class='container'>"
+         <div class='container'>
 
-         "<h1>Informações do Aluno</h1>"
+         <h1>Informações do Aluno</h1>
 
-         "<p><>Nome:  <?= $nome ?> </p>"
+         <p> <strong>Nome:</strong> <?= $nome ?> </p>
 
-         "<p>Idade: <?= $idade ?> anos</p>"
-         "</div>";
+         <p>Idade: <?= $idade ?> anos</p>
+         </div>";
 
 </body>
 
