@@ -16,41 +16,29 @@
 
 <body>
 
-    <form method="POST">
-
-        <input type="text" name="nome" placeholder="Digite seu nome">
-
-        <button type="submit">Entrar</button>
-
-    </form>
-
     <?php
 
-        $nome = $_POST["nome"] ?? "Visitante";
+    $nome = "Pimentel";
 
-        echo "<div class='container'>";
+    echo "<div class='container'>";
 
-        echo "<h1>Olá " . $nome . ", seja bem-vindo!</h1>";
+    echo "<h1>Olá " . $nome . ", seja bem-vindo!</h1>";
 
-        echo "<p>Esta é a Aula do Professor Lucas Luz</p>";
+    echo "<p>Esta é a Aula do Professor Lucas Luz</p>";
 
-        echo "<p>Hoje estamos aprendendo os primeiros conceitos de PHP.</p>";
+    echo "<p>Hoje estamos aprendendo os primeiros conceitos de PHP.</p>";
 
-        echo "<button id='botao'>Começar aula</button>";
+    echo "<button id='botao'>Começar aula</button>";
 
-        echo "</div>";
+    echo "</div>";
 
-    ?>
+?>
 
-    <script>
-
-        document.getElementById("botao").addEventListener("click", function() {
-
-            alert("A aula começou!");
-
-        });
-
-    </script>
+<script>
+    document.getElementById("botao").addEventListener("click", function() {
+        alert("A aula começou!");
+    });
+</script>
 
 </body>
 
