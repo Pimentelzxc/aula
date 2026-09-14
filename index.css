@@ -1,13 +1,52 @@
-body{
-    background-color: #b71111;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
 }
 
-h1{
-    color: #ffffff;
+.container {
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
     text-align: center;
+
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-p{
-    color: #ffffff;
-    text-align: center;
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 15px;
+
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #333;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
 }
