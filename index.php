@@ -1,44 +1,34 @@
-<!DOCTYPE html>
+<!DOCTYPE *html*>
 
-<html lang="pt-br">
+<html *lang*="pt-br">
 
 <head>
 
-    <meta charset="UTF-8">
+ <meta *charset*="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta *name*="viewport" *content*="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="index.css">
-
-    <title>AULA LUCAS LUZ</title>
+<title>AULA LUCAS LUZ\</title>
 
 </head>
 
 <body>
 
-    <?php
+ <?php
+ $nome = "Pimentel";
+ $idade = 20;
 
-    $nome = "Pimentel";
+ echo "\<h1>nome: <?=$nome?>\</h1>";
 
-    echo "<div class='container'>";
+ echo "\<p>idade: <?=$idade?>\</p>";
 
-    echo "<h1>Olá " . $nome . ", seja bem-vindo!</h1>";
-
-    echo "<p>Esta é a Aula do Professor Lucas Luz</p>";
-
-    echo "<p>Hoje estamos aprendendo Html no PHP</p>";
-
-    echo "<button id='botao'>Começar aula</button>";
-
-    echo "</div>";
+ if ($idade >= 18) {
+     echo "\<p>Você é maior de idade.\</p>";
+ } else {
+     echo "\<p>Você é menor de idade.\</p>";
+ }
 
 ?>
-
-<script>
-    document.getElementById("botao").addEventListener("click", function() {
-        alert("A aula começou!");
-    });
-</script>
 
 </body>
 
