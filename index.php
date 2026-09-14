@@ -28,13 +28,13 @@
 
 
     ?>
-         "<div class='container'>";
+         "<div class='container'>"
 
-         "<h1>Informações do Aluno</h1>";
+         "<h1>Informações do Aluno</h1>"
 
-         "<p><>Nome:  <?= $nome ?> </p>";
+         "<p><>Nome:  <?= $nome ?> </p>"
 
-         "<p>Idade: <?= $idade ?> anos</p>";
+         "<p>Idade: <?= $idade ?> anos</p>"
          "</div>";
 
 </body>
