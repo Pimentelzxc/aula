@@ -22,7 +22,7 @@
                 $resultado =" menor de idade";
             }
 
-            if else ($idade < 0)
+            else if($idade < 0)
             {
                 $resultado = "idade invalida";
             }
@@ -35,7 +35,9 @@
          <form action="GET/POST" method="GET">
 
              <input type="number" id="idade" name="idade" required>
+
              <button type="submit">Verificar</button>
+
          </form>
 
 
