@@ -22,10 +22,7 @@
                 $resultado =" menor de idade";
             }
 
-            else if($idade < 0)
-            {
-                $resultado = "idade invalida";
-            }
+          
 
     ?>
          <div class='container'>
