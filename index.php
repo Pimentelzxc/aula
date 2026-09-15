@@ -13,7 +13,7 @@
 
     <?php
         $nome = "";
-        $idade = ""
+        $idade = "";
         $resultado = "";
 
 
