@@ -32,7 +32,7 @@
 
          <h1>Informações do Aluno</h1>
 
-         <form action="GET/POST" method="GET">
+         <form action="POST" method="GET">
 
              <input type="number" id="idade" name="idade" required>
 
