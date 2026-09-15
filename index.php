@@ -18,8 +18,8 @@
             {
                 $resultado = "maior de idade";
             }
-            
-             else if($idade < 0)
+
+             else if($idade <= 0)
             {
                 $resultado = "idade invalida";
             }
