@@ -17,19 +17,15 @@
         if ($idade >=18)
             {
                 $resultado = "maior de idade";
-
-        
             }
             else {
-              
-            $resultado =" menor de idade";
+                $resultado =" menor de idade";
             }
 
-
-        
-
-    
-
+            if else ($idade < 0)
+            {
+                $resultado = "idade invalida";
+            }
 
     ?>
          <div class='container'>
@@ -37,8 +33,7 @@
          <h1>Informações do Aluno</h1>
 
          <form action="GET/POST" method="GET">
-            
-             <label for="idade">Idade:</label>
+
              <input type="number" id="idade" name="idade" required>
              <button type="submit">Verificar</button>
          </form>
