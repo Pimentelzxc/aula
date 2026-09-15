@@ -15,6 +15,13 @@
         $nome = "";
         $idade = ""
         $resultado = "";
+
+
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $nome = $_POST["nome"];
+            $idade = $_POST["idade"];
+        
+        }
         if ($idade >=18)
             {
                 $resultado = "você é maior de idade";
@@ -36,7 +43,7 @@
 
          <h1>Informações do Aluno</h1>
 
-         <form method="POST" action="index.php">
+         <form method="POST">
 
              <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
 
