@@ -21,7 +21,7 @@
 
              else if($idade <= 0)
             {
-                $resultado = "idade invalida";
+                $invalido = "";
             }
 
             else {
@@ -45,8 +45,7 @@
 
 
          <p> <strong> voce é</strong> <?= $resultado ?></p>
-
-    
+         <p> <strong> idade invalida</strong> <?= $invalido ?></p>
 
          </div>
 
