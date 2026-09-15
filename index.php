@@ -13,7 +13,6 @@
 
     <?php
 
-        $resultado ="";
         if ($idade >=18)
             {
                 $resultado = "você é maior de idade";
@@ -21,7 +20,7 @@
 
              else if($idade <= 0)
             {
-                $invalido = "invalido";
+                $resultado = "invalido";
             }
 
             else {
@@ -44,7 +43,7 @@
 
          </form>
          
-          
+          <p> <? $resultado; ?> </p>  
 
          </div>
 
