@@ -36,35 +36,7 @@ h1 {
 p {
     font-size: 18px;
 
-    color: #000000;
+    color: #d0cbcb;
 
     margin: 15px 0;
-}
-
-.maior {
-    margin-top: 25px;
-
-    padding: 12px;
-
-    background-color: #000000;
-
-    color: #eee2e2;
-
-    border-radius: 6px;
-
-    font-weight: bold;
-}
-
-.menor {
-    margin-top: 25px;
-
-    padding: 12px;
-
-    background-color: #030202;
-
-    color: #fffafa;
-
-    border-radius: 6px;
-
-    font-weight: bold;
 }
