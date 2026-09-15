@@ -45,7 +45,7 @@
 
          <form method="POST">
 
-             <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+             
 
              <input type="number" id="idade" name="idade" required placeholder="Digite sua idade">
 
