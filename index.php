@@ -54,7 +54,11 @@
 
          </form>
          
-          <p> <? $resultado ?> </p>  
+            <div class="resultado">
+                <h2>Resultado:</h2>
+                <p>Nome: <?php echo $nome; ?></p>
+                <p>Idade: <?php echo $idade; ?></p>
+                <p><?php echo $resultado; ?></p>
 
          </div>
 
