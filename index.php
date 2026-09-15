@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-
-    <title>AULA LUCAS LUZ</title>
-</head>
-
-<body>
-
-    <?php
+ <?php
         $nome = "";
         $idade = "";
         $resultado = "";
@@ -39,7 +26,19 @@
            
 
     ?>
-         <div class='container'>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>AULA LUCAS LUZ</title>
+</head>
+
+<body>
+         < class='container'>
 
          <h1>Informações do Aluno</h1>
 
@@ -53,14 +52,15 @@
 
 
          </form>
-         
-            <div class="resultado">
-                <h2>Resultado:</h2>
-                <p>Nome: <?php echo $nome; ?></p>
-                <p>Idade: <?php echo $idade; ?></p>
-                <p><?php echo $resultado; ?></p>
 
          </div>
+         <?php
+         $resultado != "" {
+            <?php echo "<h2>Olá, $nome! $resultado</h2>"; ?>
+         }
+           
+         ?>
+        
 
          
 
