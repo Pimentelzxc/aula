@@ -41,10 +41,11 @@
 
              <button type="submit">Verificar</button>
 
+
          </form>
+         
+          <p> <?php echo $resultado; ?> </p>
 
-
-         <p> <?=$resultado ?> </p>
          </div>
 
          
