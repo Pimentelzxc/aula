@@ -28,6 +28,9 @@ body {
 }
 
 h1 {
+
+    font-size: 30px;
+    font:impact
     margin-bottom: 25px;
 
     color: #000000;
