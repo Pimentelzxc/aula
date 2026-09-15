@@ -44,8 +44,7 @@
 
          </form>
          
-          <p> <?php echo $resultado; ?> </p>
-           <p> <?php echo $invalido; ?> </p>
+          
 
          </div>
 
