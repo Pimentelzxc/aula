@@ -18,11 +18,17 @@
             {
                 $resultado = "maior de idade";
             }
+            
+             else if($idade < 0)
+            {
+                $resultado = "idade invalida";
+            }
+
             else {
                 $resultado =" menor de idade";
             }
 
-          
+           
 
     ?>
          <div class='container'>
