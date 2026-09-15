@@ -44,7 +44,7 @@
          </form>
 
 
-         <p> <strong> voce é</strong> <?= $resultado ?></p>
+         <p> <strong> <?= $resultado ?> </strong> </p>
 
          </div>
 
