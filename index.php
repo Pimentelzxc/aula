@@ -44,7 +44,7 @@
 
           <input type="number" id="idade" name="idade" required placeholder="Digite sua idade">
 
-          <button type="submit">Verificar</button>
+                     <button type="submit">Verificar</button>
 
 
          </form>
