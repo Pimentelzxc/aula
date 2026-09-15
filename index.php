@@ -44,8 +44,7 @@
          </form>
 
 
-         <p> $resultado; </p>
-
+         <p> <?=$resultado ?> </p>
          </div>
 
          
