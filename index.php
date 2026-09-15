@@ -17,7 +17,11 @@
         $resultado = "";
 
 
-     
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $nome = $_POST["nome"];
+            $idade = $_POST["idade"];
+        
+        }
         if ($idade >=18)
             {
                 $resultado = "você é maior de idade";
@@ -50,7 +54,7 @@
 
          </form>
          
-          <p> <? $resultado; ?> </p>  
+          <p> <? $resultado ?> </p>  
 
          </div>
 
