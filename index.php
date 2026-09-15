@@ -16,7 +16,7 @@
         $resultado ="";
         if ($idade >=18)
             {
-                $resultado = "maior de idade";
+                $resultado = "você é maior de idade";
             }
 
              else if($idade <= 0)
@@ -25,7 +25,7 @@
             }
 
             else {
-                $resultado =" menor de idade";
+                $resultado ="você é menor de idade";
             }
 
            
@@ -44,7 +44,7 @@
          </form>
 
 
-         <p> <strong> <?= $resultado ?> </strong> </p>
+         <p> $resultado; </p>
 
          </div>
 
