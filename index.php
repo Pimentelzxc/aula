@@ -12,7 +12,9 @@
 <body>
 
     <?php
-
+        $nome = "";
+        $idade = ""
+        $resultado = "";
         if ($idade >=18)
             {
                 $resultado = "você é maior de idade";
@@ -36,9 +38,11 @@
 
          <form method="POST" action="index.php">
 
-             <input type="number" id="idade" name="idade" required placeholder="Digite sua idade">
+         <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
 
-             <button type="submit">Verificar</button>
+         <input type="number" id="idade" name="idade" required placeholder="Digite sua idade">
+
+         <button type="submit">Verificar</button>
 
 
          </form>
