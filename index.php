@@ -13,8 +13,6 @@
 
     <?php
 
-        $nome = "Pimentel";
-        $idade = 20;
         $resultado ="";
         if ($idade >=18)
             {
@@ -38,9 +36,13 @@
 
          <h1>Informações do Aluno</h1>
 
-         <p> <strong>Nome:</strong> <?= $nome ?> </p>
+         <form action="GET/POST" method="GET">
+            
+             <label for="idade">Idade:</label>
+             <input type="number" id="idade" name="idade" required>
+             <button type="submit">Verificar</button>
+         </form>
 
-         <p> <strong>Idade:</strong> <?= $idade ?> anos</p>
 
          <p> <strong> voce é</strong> <?= $resultado ?></p>
 
