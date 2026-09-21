@@ -54,15 +54,8 @@
          </form>
 
          </div>
-         <?php
-         $resultado != "" {
-            <?php echo "<h2>Olá, $nome! $resultado</h2>"; ?>
-         }
-           
-         ?>
         
-
-         
+           
 
 </body>
 
