@@ -26,8 +26,13 @@
            
 
     ?>
-
-
+       <?php
+         $resultado != "" {
+            <?php echo "<h2>Olá, $nome! $resultado</h2>"; ?>
+         }
+           
+         ?>
+        
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -56,8 +61,8 @@
          </form>
 
          </div>
-        
-           
+
+         
 
 </body>
 
