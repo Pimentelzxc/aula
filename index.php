@@ -26,6 +26,8 @@
            
 
     ?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -38,7 +40,7 @@
 </head>
 
 <body>
-         < class='container'>
+         <div class='container'>
 
          <h1>Informações do Aluno</h1>
 
