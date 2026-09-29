@@ -3,7 +3,7 @@ require "conexao.php";
 echo "meu sistema esta conectado";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
