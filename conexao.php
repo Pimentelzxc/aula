@@ -10,6 +10,11 @@ $senha = "315!@#";
 
 try{
     $pdo = new PDO ("mysql: host = $host; dbname=$banco; charset=utf8mb4", $usuario,$senha);
+    $pdo->setAttribut(
+     PDO::ATTR_ERRMODE,
+     PDO::ERRMODE_EXCEPTION
+
+    );
 } 
 
 catch (){
