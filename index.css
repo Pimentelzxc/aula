@@ -40,10 +40,3 @@ a:active {
 a:visited {
     color: #e8f5e9;
 }
-
-@media (max-width: 600px) {
-    a {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
-}
