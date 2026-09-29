@@ -9,13 +9,3 @@ body{
     height: 100vh;
 }
 
-.container{
-    background-color: rgb(138, 4, 255);
-    color: aliceblue;
-    width: 350px;
-    padding: 40px;
-    text-align: center;
-    border: solid 10px;
-    border-radius: 10px;
-    border-color: rgb(212, 210, 218);
-}
