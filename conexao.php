@@ -16,7 +16,7 @@ try{
 
     );
 
-    echo "conectado com sucesso!"
+    echo "conectado com sucesso!";
 } 
 
 catch (PDOException $erro){ 
