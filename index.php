@@ -1,3 +1,7 @@
+<?php
+require "conexao.php";
+echo "meu sistema esta conectado";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
